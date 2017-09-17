@@ -708,7 +708,7 @@ ParticleSystem:
   moveWithTransform: 0
   moveWithCustomTransform: {fileID: 0}
   scalingMode: 1
-  randomSeed: -305573485
+  randomSeed: -1846143657
   InitialModule:
     serializedVersion: 3
     enabled: 1
@@ -4387,7 +4387,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ff26db721962cdf4a8edcdfa9a767d2a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  profile: {fileID: 11400000, guid: 218c357ad2b364055b685af1e8a820e5, type: 2}
+  profile: {fileID: 11400000, guid: 4d1247ebcc690ad4fa6d2b57d88563ca, type: 2}
 --- !u!20 &1459217503
 Camera:
   m_ObjectHideFlags: 0

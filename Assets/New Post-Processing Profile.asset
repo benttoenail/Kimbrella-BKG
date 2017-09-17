@@ -71,10 +71,10 @@ MonoBehaviour:
   depthOfField:
     m_Enabled: 1
     m_Settings:
-      focusDistance: 10
-      aperture: 0.1
-      focalLength: 16
-      useCameraFov: 1
+      focusDistance: 8.04
+      aperture: 0.4
+      focalLength: 48
+      useCameraFov: 0
       kernelSize: 1
   motionBlur:
     m_Enabled: 0
@@ -97,14 +97,14 @@ MonoBehaviour:
       logMin: -8
       logMax: 4
   bloom:
-    m_Enabled: 1
+    m_Enabled: 0
     m_Settings:
       bloom:
-        intensity: 5.12
-        threshold: 1.17
-        softKnee: 0.63
-        radius: 4.5
-        antiFlicker: 1
+        intensity: 0
+        threshold: 1.1
+        softKnee: 0.5
+        radius: 4
+        antiFlicker: 0
       lensDirt:
         texture: {fileID: 0}
         intensity: 3
@@ -134,13 +134,13 @@ MonoBehaviour:
       colorWheels:
         mode: 1
         log:
-          slope: {r: 0.7971864, g: 1, b: 0.81482327, a: 0}
-          power: {r: 0.5844245, g: 1, b: 0.64876544, a: 0}
-          offset: {r: 0.85943264, g: 0.92107177, b: 1, a: 0}
+          slope: {r: 0.9795042, g: 1, b: 0.91095656, a: 0}
+          power: {r: 1, g: 1, b: 1, a: 0}
+          offset: {r: 1, g: 1, b: 1, a: 0}
         linear:
-          lift: {r: 1, g: 1, b: 1, a: 0}
-          gamma: {r: 1, g: 1, b: 1, a: 0}
-          gain: {r: 1, g: 1, b: 1, a: 0}
+          lift: {r: 0, g: 0, b: 0, a: 0}
+          gamma: {r: 0, g: 0, b: 0, a: 0}
+          gain: {r: 0, g: 0, b: 0, a: 0}
       curves:
         master:
           curve:
@@ -298,8 +298,8 @@ MonoBehaviour:
       mode: 0
       color: {r: 0, g: 0, b: 0, a: 1}
       center: {x: 0.5, y: 0.5}
-      intensity: 0.404
-      smoothness: 0.2
+      intensity: 0.4
+      smoothness: 0.233
       roundness: 1
       mask: {fileID: 0}
       opacity: 1
