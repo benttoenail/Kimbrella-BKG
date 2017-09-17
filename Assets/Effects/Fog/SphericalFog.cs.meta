@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 6eaee1ba1a44341c8ba88c1ea7320c9f
+timeCreated: 1505571074
+licenseType: Free
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences:
+  - sphericalFogMaterial: {fileID: 2100000, guid: f938d969cde7e41f591d0a6ce21efa6b,
+      type: 2}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
